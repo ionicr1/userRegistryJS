@@ -1,0 +1,40 @@
+label {
+	display: block;
+}
+
+input[type=text], input[type=email], input[type=password] {
+   width: 350px;
+   padding: 8px;
+   margin-top: 4px;
+   margin-bottom: 12px;
+   border: 1px solid #aaa;
+   border-radius: 4px;
+}
+
+#formErrors {
+	display: none;
+}
+
+input[type=submit] {
+   width: 100%;
+   color: white;
+   background-color: #09f;
+   color: white;
+   padding: 15px;
+   margin: 10px 0;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+}
+
+form {
+   font: 10pt Arial;
+   background-color: #eee;
+   padding: 10px;
+   width: 370px;
+	margin: 0 auto;
+}
+
+li {
+	color: red;
+}
